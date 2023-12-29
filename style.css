@@ -1,62 +1,51 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
   box-sizing: border-box;
 }
 
 .container {
   display: block;
-  width: 500px;
+  width: 100%;
   border-top: 24px solid gray;
-  background-color: white;
-  margin-left: 500px;
-  margin-top: 50px;
-  position: relative;
-  height: 1460px;
-  float: left;
 }
 
-article {
-  width: 200px;
+.head-line {
+  width: 600px;
   height: 24px;
   background-color: gray;
   position: absolute;
-  top: 14px;
-  left: 150px;
+  top: 50px;
+  left: 445px;
 }
 
-article .header-box {
-  display: block;
-  position: relative;
-  top: 20px;
+.head-boxes {
+  display: inline;
 }
 
 .h-box-1 {
-  width: 246px;
-  height: 246px;
+  width: 700px;
+  height: 700px;
   background-color: gray;
-  position: absolute;
-  top: 20px;
-  left: -150px;
+  margin-top: 100px;
+  float: left;
 }
 
 .h-box-2 {
-  width: 246px;
-  height: 246px;
+  width: 700px;
+  height: 700px;
   background-color: gray;
-  position: absolute;
-  top: 20px;
-  right: -150px;
+  margin-top: 100px;
+  float: right;
 }
 
 .art-1 {
-  width: 300px;
+  position: absolute;
+  width: 600px;
   height: 28px;
-  position: relative;
   background-color: gray;
-  top: 306px;
-  right: 50px;
+  top: 860px;
+  left: 440px;
 }
 
 .art-1-box {
@@ -65,39 +54,39 @@ article .header-box {
 }
 
 .box-1 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 50px;
-  left: -90px;
+  top: 920px;
+  left: 45px;
 }
 
 .box-2 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 50px;
-  left: 34px;
+  top: 920px;
+  left: 405px;
 }
 
 .box-3 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 50px;
-  left: 158px;
+  top: 920px;
+  left: 765px;
 }
 
 .box-4 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 50px;
-  right: -90px;
+  top: 920px;
+  left: 1125px;
 }
 
 .art-1-box-2 {
@@ -106,200 +95,201 @@ article .header-box {
 }
 
 .box-5 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 171px;
-  left: -90px;
+  top: 1280px;
+  left: 45px;
 }
 
 .box-6 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 171px;
-  left: 34px;
+  top: 1280px;
+  left: 405px;
 }
 
 .box-7 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 171px;
-  left: 158px;
+  top: 1280px;
+  left: 765px;
 }
 
 .box-8 {
-  width: 110px;
-  height: 110px;
+  width: 350px;
+  height: 350px;
   background-color: gray;
   position: absolute;
-  top: 171px;
-  right: -90px;
+  top: 1280px;
+  left: 1125px;
 }
 
 .mid-head {
   position: absolute;
-  top: 616px;
-  left: -90px;
-  width: 380px;
+  top: 1675px;
+  left: 360px;
+  width: 800px;
   height: 32px;
   background-color: gray;
 }
 
 .mid-box {
   position: absolute;
-  top: 680px;
-  left: -150px;
+  top: 1750px;
+  left: 0;
   display: inline;
   background-color: gray;
-  width: 500px;
-  height: 300px;
+  width: 100%;
+  height: 700px;
 }
 
 .mid-box-1 {
   position: absolute;
-  width: 140px;
-  height: 200px;
+  width: 450px;
+  height: 600px;
   background-color: white;
   top: 50px;
-  /* left: 25px; */
-  float: left;
+  left: 25px;
   margin-left: 25px;
 }
 
 .mid-box-2 {
   position: absolute;
-  width: 140px;
-  height: 200px;
+  width: 450px;
+  height: 600px;
   background-color: white;
   top: 50px;
-  float: right;
-  margin-left: 182px;
+  margin-left: 530px;
 }
 
 .mid-box-3 {
   position: absolute;
-  width: 140px;
-  height: 200px;
+  width: 450px;
+  height: 600px;
   background-color: white;
   top: 50px;
-  float: right;
-  margin-left: 340px;
+  margin-left: 1010px;
 }
 
 .m-b-head {
   position: absolute;
-  width: 100px;
-  height: 20px;
+  width: 410px;
+  height: 35px;
   background-color: gray;
-  top: 10px;
+  top: 16px;
   left: 20px;
 }
 
 .m-b-mid {
   position: absolute;
-  width: 100px;
-  height: 74px;
+  width: 410px;
+  height: 300px;
   background-color: gray;
-  top: 40px;
+  top: 66px;
   float: auto;
   margin-left: 20px;
 }
 
 .m-b-foot {
   position: absolute;
-  width: 100px;
-  height: 60px;
+  width: 410px;
+  height: 200px;
   background-color: gray;
-  top: 126px;
+  top: 382px;
   left: 20px;
 }
 
 .end-head {
   position: absolute;
-  width: 150px;
+  width: 300px;
   height: 28px;
-  top: 1000px;
-  left: 30px;
+  top: 2500px;
+  left: 610px;
   background-color: gray;
 }
 
 .end-cont-1 {
   position: absolute;
-  width: 200px;
+  width: 500px;
   height: 30px;
-  top: 1050px;
+  top: 2560px;
   background-color: gray;
+  left: 505px;
 }
 
 .end-cont-2 {
   position: absolute;
-  width: 200px;
+  width: 500px;
   height: 30px;
-  top: 1085px;
+  top: 2595px;
   background-color: gray;
+  left: 505px;
 }
 
 .end-cont-3 {
   position: absolute;
-  width: 200px;
+  width: 500px;
   height: 30px;
-  top: 1120px;
+  top: 2630px;
+  left: 505px;
   background-color: gray;
 }
 
 .end-cont-4 {
   position: absolute;
-  width: 200px;
-  height: 100px;
-  top: 1155px;
+  width: 500px;
+  height: 120px;
+  top: 2666px;
+  left: 505px;
   background-color: gray;
 }
 
 .l-e-1 {
   position: absolute;
-  width: 95px;
+  width: 240px;
   height: 30px;
   background-color: gray;
-  top: 1270px;
+  top: 2800px;
+  left: 505px;
 }
 
 .l-e-2 {
   position: absolute;
-  width: 95px;
+  width: 240px;
   height: 30px;
   background-color: gray;
-  top: 1270px;
-  left: 105px;
+  top: 2800px;
+  right: 508px;
 }
 
 .foot {
-  bottom: -1300px;
+  top: 2860px;
   background-color: gray;
   position: relative;
-  width: 500px;
-  height: 100px;
-  left: -150px;
+  width: 100%;
+  height: 120px;
+  left: 0px;
 }
 
 .foot-1 {
   position: absolute;
-  width: 235px;
-  height: 80px;
+  width: 49%;
+  height: 100px;
   top: 10px;
-  float: left;
   margin-left: 10px;
   background-color: white;
 }
 
 .foot-2 {
   position: absolute;
-  width: 235px;
-  height: 80px;
+  width: 49%;
+  height: 100px;
   top: 10px;
   right: 10px;
   background-color: white;
