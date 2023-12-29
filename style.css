@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.container {
+  display: block;
+  width: 500px;
+  border-top: 24px solid gray;
+  background-color: white;
+  margin-left: 500px;
+  margin-top: 50px;
+  position: relative;
+  height: 1460px;
+  float: left;
+}
+
+article {
+  width: 200px;
+  height: 24px;
+  background-color: gray;
+  position: absolute;
+  top: 14px;
+  left: 150px;
+}
+
+article .header-box {
+  display: block;
+  position: relative;
+  top: 20px;
+}
+
+.h-box-1 {
+  width: 246px;
+  height: 246px;
+  background-color: gray;
+  position: absolute;
+  top: 20px;
+  left: -150px;
+}
+
+.h-box-2 {
+  width: 246px;
+  height: 246px;
+  background-color: gray;
+  position: absolute;
+  top: 20px;
+  right: -150px;
+}
+
+.art-1 {
+  width: 300px;
+  height: 28px;
+  position: relative;
+  background-color: gray;
+  top: 306px;
+  right: 50px;
+}
+
+.art-1-box {
+  display: inline;
+  margin: 10px;
+}
+
+.box-1 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 50px;
+  left: -90px;
+}
+
+.box-2 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 50px;
+  left: 34px;
+}
+
+.box-3 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 50px;
+  left: 158px;
+}
+
+.box-4 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 50px;
+  right: -90px;
+}
+
+.art-1-box-2 {
+  display: inline;
+  margin: 10px;
+}
+
+.box-5 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 171px;
+  left: -90px;
+}
+
+.box-6 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 171px;
+  left: 34px;
+}
+
+.box-7 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 171px;
+  left: 158px;
+}
+
+.box-8 {
+  width: 110px;
+  height: 110px;
+  background-color: gray;
+  position: absolute;
+  top: 171px;
+  right: -90px;
+}
+
+.mid-head {
+  position: absolute;
+  top: 616px;
+  left: -90px;
+  width: 380px;
+  height: 32px;
+  background-color: gray;
+}
+
+.mid-box {
+  position: absolute;
+  top: 680px;
+  left: -150px;
+  display: inline;
+  background-color: gray;
+  width: 500px;
+  height: 300px;
+}
+
+.mid-box-1 {
+  position: absolute;
+  width: 140px;
+  height: 200px;
+  background-color: white;
+  top: 50px;
+  /* left: 25px; */
+  float: left;
+  margin-left: 25px;
+}
+
+.mid-box-2 {
+  position: absolute;
+  width: 140px;
+  height: 200px;
+  background-color: white;
+  top: 50px;
+  float: right;
+  margin-left: 182px;
+}
+
+.mid-box-3 {
+  position: absolute;
+  width: 140px;
+  height: 200px;
+  background-color: white;
+  top: 50px;
+  float: right;
+  margin-left: 340px;
+}
+
+.m-b-head {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: gray;
+  top: 10px;
+  left: 20px;
+}
+
+.m-b-mid {
+  position: absolute;
+  width: 100px;
+  height: 74px;
+  background-color: gray;
+  top: 40px;
+  float: auto;
+  margin-left: 20px;
+}
+
+.m-b-foot {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  background-color: gray;
+  top: 126px;
+  left: 20px;
+}
+
+.end-head {
+  position: absolute;
+  width: 150px;
+  height: 28px;
+  top: 1000px;
+  left: 30px;
+  background-color: gray;
+}
+
+.end-cont-1 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 1050px;
+  background-color: gray;
+}
+
+.end-cont-2 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 1085px;
+  background-color: gray;
+}
+
+.end-cont-3 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  top: 1120px;
+  background-color: gray;
+}
+
+.end-cont-4 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 1155px;
+  background-color: gray;
+}
+
+.l-e-1 {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  background-color: gray;
+  top: 1270px;
+}
+
+.l-e-2 {
+  position: absolute;
+  width: 95px;
+  height: 30px;
+  background-color: gray;
+  top: 1270px;
+  left: 105px;
+}
+
+.foot {
+  bottom: -1300px;
+  background-color: gray;
+  position: relative;
+  width: 500px;
+  height: 100px;
+  left: -150px;
+}
+
+.foot-1 {
+  position: absolute;
+  width: 235px;
+  height: 80px;
+  top: 10px;
+  float: left;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.foot-2 {
+  position: absolute;
+  width: 235px;
+  height: 80px;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+}
